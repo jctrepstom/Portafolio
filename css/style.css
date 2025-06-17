@@ -9,14 +9,12 @@ body {
     color: #ededed;
 }
 .header{
-    position: fixed;
     width: 100%;
     background-color: transparent;
     padding: 20px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
 }
 .logo{
     font-size: 24px;
@@ -37,10 +35,10 @@ body {
     color: #00abfa;
 }
 .inicio{
-    padding: 220px 10%;
+    padding: 100px 10%;
 }
 .inicio-contenido{
-    max-width: 600px;
+    width: 100%;
 }
 .inicio-contenido h1{
     font-size: 56px;
@@ -82,6 +80,27 @@ body {
 .inicio-redes a:hover{
     border: 2px solid red;
     color: red;
+}
+.contenido-inicial{
+    display: flex;
+    margin-bottom: 30px;
+}
+.img-profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-profile img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.profile img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .experience{
     margin: 15px;
