@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #121212;
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 24px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a{
+    font-size: 16px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #00abfa;
+}
+.inicio{
+    padding: 220px 10%;
+}
+.inicio-contenido{
+    max-width: 600px;
+}
+.inicio-contenido h1{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.inicio-contenido h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #00abfa;
+}
+.inicio-contenido p{
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.inicio-redes{
+    bottom: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 30px;
+
+}
+.inicio-redes a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid #00abfa;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abfa;
+    text-decoration: none;
+    
+}
+.inicio-redes a:hover{
+    border: 2px solid red;
+    color: red;
+}
+.experience{
+    margin: 15px;
+}
+.experience-laboral{
+    padding-bottom: 20px;
+}
+.puesto{
+    display: flex;
+    gap: 10px;
+    padding: 8px 0;
+}
+.puesto p{
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+}
+ul{
+    margin: 0 30px;
+}
+li{
+    line-height: 2;
+    font-size: 14px;
+}
+li::marker{
+    color: #00abfa;
+}
+.skills{
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.skill-icon{
+    padding: 10px;
+    font-size: 12px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #747171;
+    background-color: #525252;
+    color: #c7c3c3;
+    display: inline-flex;
+    align-items: center;
+}
+.skill-icon:hover{
+    border: 1px solid #00abfa;
+    color: #00abfa;
+    transition: all 0.5s;
+}
+
+footer{
+    text-align: center;
+    padding: 100px;
+}
